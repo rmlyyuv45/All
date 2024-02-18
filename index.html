@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <!-- تحديد التوجيهات بناءً على نوع الجهاز -->
+‎    <!-- تحديد التوجيهات بناءً على نوع الجهاز -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" media="(min-width: 768px)">
     <title>My Websites</title>
@@ -267,7 +267,7 @@
     </div>
     <div class="website">
         <h2>Website 5</h2>
-        <iframe src="https://translate.yandex.com/?utm_source=yandex&utm_medium=com&utm_campaign=morda&source_lang=en&target_lang=ar"></iframe>
+        <iframe src="https://www.bing.com/translator?setlang=ar"></iframe>
     </div>
 
     <div class="input-container">
@@ -310,13 +310,13 @@
             websiteContainer.remove();
         }
 
-        // تبديل الوضع (النهاري/الليلي)
+‎        // تبديل الوضع (النهاري/الليلي)
         function toggleMode() {
             var body = document.body;
             var currentMode = body.classList.contains('night-mode') ? 'night' : 'day';
             if (currentMode === 'night') {
                 body.classList.remove('night-mode');
-                // تحديث وضع الإطارات ليكون النهاري
+‎                // تحديث وضع الإطارات ليكون النهاري
                 var iframes = document.querySelectorAll('iframe');
                 iframes.forEach(function(iframe) {
                     iframe.contentDocument.body.style.backgroundColor = '#fff';
@@ -324,7 +324,7 @@
                 });
             } else {
                 body.classList.add('night-mode');
-                // تحديث وضع الإطارات ليكون الليلي
+‎                // تحديث وضع الإطارات ليكون الليلي
                 var iframes = document.querySelectorAll('iframe');
                 iframes.forEach(function(iframe) {
                     iframe.contentDocument.body.style.backgroundColor = '#333';
